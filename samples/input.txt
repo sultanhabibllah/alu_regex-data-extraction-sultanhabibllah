@@ -1,0 +1,25 @@
+[2026-02-01 14:30] INFO Request id=8f1a2 user=jane.doe@company.co.uk action="checkout"
+Customer phone: (415) 555-0132 or 415-555-0132 or 415.555.0132
+Backup phone: +1 415 555 0199
+
+Payment attempt:
+Card: 4242 4242 4242 4242
+Alt formatting: 4111-1111-1111-1111
+Bad card: 1234-0000-0000-0000
+
+Total: $1,234.56
+Other totals: $19.99, $0.99, $12
+
+Meeting times: 2:30 PM, 02:30 pm, 14:30, 24:01, 9:70 AM
+
+Links:
+https://www.example.com
+https://subdomain.example.org/page?ref=campaign&utm_source=email
+http://example.net/path#section
+javascript:alert('xss')
+data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+
+User content:
+"Email me at admin@localhost or root@evil..com or test@@example.com"
+"Tag us: #LaunchDay #ThisIsAHashtag #123start"
+"<div class='note'>Hello</div> <script>alert(1)</script> <img src='x' onerror='alert(2)'>"

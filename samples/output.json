@@ -1,0 +1,104 @@
+{
+  "emails": [
+    {
+      "masked": "j******e@company.co.uk"
+    }
+  ],
+  "urls": [
+    {
+      "value": "https://www.example.com"
+    },
+    {
+      "value": "https://subdomain.example.org/page?ref=campaign&utm_source=email"
+    },
+    {
+      "value": "http://example.net/path#section"
+    }
+  ],
+  "phones": [
+    {
+      "raw": "(415) 555-0132",
+      "digits": "4155550132"
+    },
+    {
+      "raw": "415-555-0132",
+      "digits": "4155550132"
+    },
+    {
+      "raw": "415.555.0132",
+      "digits": "4155550132"
+    },
+    {
+      "raw": "+1 415 555 0199",
+      "digits": "14155550199"
+    }
+  ],
+  "credit_cards": [
+    {
+      "masked": "************4242",
+      "last4": "4242"
+    },
+    {
+      "masked": "************1111",
+      "last4": "1111"
+    }
+  ],
+  "times": [
+    {
+      "value": "14:30"
+    },
+    {
+      "value": "2:30 PM"
+    },
+    {
+      "value": "02:30"
+    },
+    {
+      "value": "14:30"
+    }
+  ],
+  "currency": [
+    {
+      "value": "$1,234.56"
+    },
+    {
+      "value": "$19.99"
+    },
+    {
+      "value": "$0.99"
+    },
+    {
+      "value": "$12"
+    }
+  ],
+  "hashtags": [
+    {
+      "value": "#LaunchDay"
+    },
+    {
+      "value": "#ThisIsAHashtag"
+    }
+  ],
+  "html_tags": [
+    {
+      "value": "<div class='note'>",
+      "safe": true
+    },
+    {
+      "value": "</div>",
+      "safe": true
+    },
+    {
+      "value": "<script>",
+      "safe": false
+    },
+    {
+      "value": "</script>",
+      "safe": true
+    },
+    {
+      "value": "<img src='x' onerror='alert(2)'>",
+      "safe": false
+    }
+  ]
+}
